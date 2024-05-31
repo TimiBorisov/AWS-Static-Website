@@ -1,2 +1,2 @@
-# AWS-Static-Website-Resume
+# AWS-Static-Website
 The Cloud Resume Challenge — AWS
