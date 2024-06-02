@@ -5,13 +5,13 @@ This project uses Terraform to host a static website on AWS. The website is stor
 
 ## Why I Use AWS?
 
-Scalability: AWS services can handle traffic spikes efficiently.
+## Scalability: AWS services can handle traffic spikes efficiently.
 
-Global Reach: CloudFront CDN ensures fast content delivery globally.
+## Global Reach: CloudFront CDN ensures fast content delivery globally.
 
-Cost-Effective: Pay-as-you-go pricing makes it affordable.
+## Cost-Effective: Pay-as-you-go pricing makes it affordable.
 
-Security: AWS provides robust security features including SSL/TLS encryption.
+## Security: AWS provides robust security features including SSL/TLS encryption.
 
 ## Architecture Overview
 
