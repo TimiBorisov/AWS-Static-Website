@@ -178,6 +178,7 @@ terraform apply -var="domain_name=<your-domain-name>" -var="bucket_name=<your-bu
 If your website files are not automatically uploaded by Terraform (depending on your aws_s3_bucket_object resource), you can use the AWS CLI:
 
 bash
+
 aws s3 sync <path-to-your-website-files> s3://<your-bucket-name>
 
 6. Validate Your Website
