@@ -5,19 +5,24 @@ This project uses Terraform to host a static website on AWS. The website is stor
 
 ## Why I Use AWS?
 
-Scalability: AWS services can handle traffic spikes efficiently.
-Global Reach: CloudFront CDN ensures fast content delivery globally.
-Cost-Effective: Pay-as-you-go pricing makes it affordable.
+Scalability: 
+
+ - AWS services can handle traffic spikes efficiently.
+Global Reach:
+ - CloudFront CDN ensures fast content delivery globally.
+Cost-Effective:
+ - Pay-as-you-go pricing makes it affordable.
 Security: AWS provides robust security features including SSL/TLS encryption.
 
 ## Architecture Overview
 
-Amazon S3: Stores the static website files (HTML, CSS, JS).
-Amazon CloudFront: Serves the website using a CDN, providing SSL termination and caching.
-Amazon Route 53: Manages the domain name.
-AWS Certificate Manager (ACM): Manages SSL certificates for HTTPS.
+1. Amazon S3: Stores the static website files (HTML, CSS, JS).
+2. Amazon CloudFront: Serves the website using a CDN, providing SSL termination and caching.
+3. Amazon Route 53: Manages the domain name.
+4. AWS Certificate Manager (ACM): Manages SSL certificates for HTTPS.
 
 ## Prerequisites
+
 An AWS account.
 Terraform CLI installed.
 A text editor - Visual Studio Code
