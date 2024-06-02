@@ -3,7 +3,7 @@
 Hosting a Static Website on AWS using Terraform.
 This project uses Terraform to host a static website on AWS. The website is stored in an S3 bucket, served via a CloudFront distribution for CDN and SSL termination, and uses Route 53 for DNS management.
 
-## Why i Use AWS?
+## Why I Use AWS?
 
 Scalability: AWS services can handle traffic spikes efficiently.
 Global Reach: CloudFront CDN ensures fast content delivery globally.
